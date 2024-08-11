@@ -1,0 +1,102 @@
+.header__contacts {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.header__contacts-number {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: right;
+  letter-spacing: -0.01em;
+  color: #303344;
+}
+
+.header__contacts-call-btn {
+  display: inline-block;
+  height: 22px;
+  padding: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  background-color: transparent;
+  border: none;
+  color: #1683DF;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.header__contacts-call-btn:hover {
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+.header__contacts-item_mobile {
+  display: none;
+}
+
+.header__contacts-item_desc {
+  display: block;
+}
+
+.header__contacts-item_mobile-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-image: url("../../../images/tell.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 55% 55%;
+  background-color: #FCFBF4;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.header__contacts-item_mobile-btn:hover {
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+@media screen and (max-width: 745px) {
+  .header__contacts-number {
+    font-size: 3.2vw;
+    line-height: 1.37;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__contacts-item_mobile {
+    display: block;
+  }
+
+  .header__contacts-number {
+    font-size: 16px;
+    line-height: 1.33;
+  }
+
+  .header__contacts-item_desc {
+    display: none;
+  }
+
+  .header__contacts {
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5px;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header__contacts-number {
+    font-size: 3.75vw;
+  }
+}

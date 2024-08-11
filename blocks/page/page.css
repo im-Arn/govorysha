@@ -1,0 +1,18 @@
+.page {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: 'nunito', Arial, sans-serif;
+  color: #333333;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 52px rgba(127, 19, 0, 0.2);
+}
