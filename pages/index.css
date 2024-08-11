@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
+
+@import url(../blocks/features/slider.css);
+@import url(../blocks/features/menu.css);
+
+@import url(../blocks/modifiers/modifiers.css);
+
+@import url(../blocks/social/social.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__header/popup__header.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__button-close/popup__button-close.css);
+
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+
+@import url(../blocks/intro/intro.css);
+
+@import url(../blocks/specialists/specialists.css);
+
+@import url(../blocks/statistics/statistics.css);
+
+@import url(../blocks/benefits/benefits.css);
+
+@import url(../blocks/process/process.css);
+@import url(../blocks/about/about.css);
+
+@import url(../blocks/prices/prices.css);
+
+@import url(../blocks/questions/questions.css);
+
+@import url(../blocks/map/map.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

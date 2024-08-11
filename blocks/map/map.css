@@ -1,0 +1,49 @@
+.map {
+  position: relative;
+}
+
+.map__baloon {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 122px;
+  top: 178px;
+  width: 314px;
+  height: 286px;
+  box-sizing: border-box;
+  padding: 46px 51px 0px 30px;
+  margin: 0px;
+  list-style: none;
+  background-color: #FFFFFF;
+}
+
+.map__baloon-item{
+  display: flex;
+}
+
+.map__baloon-icon{
+  padding-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.map__el-phone {
+  padding: 18px 0px 29px 0px;
+}
+
+@media screen and (max-width: 550px) {
+  .map__baloon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    top: 210px;
+    width: 220px;
+    height: 180px;
+    box-sizing: border-box;
+    padding: 15px 13px 0px 13px;
+    margin: 0px;
+    list-style: none;
+    background-color: #FFFFFF;
+  }
+}

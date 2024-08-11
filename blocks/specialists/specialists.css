@@ -1,0 +1,56 @@
+.specialists {
+  margin-bottom: 0px;
+}
+
+.specialists__list-item {
+  padding: 32px 28px 68px;
+}
+
+.specialists__item-txt {
+  padding-bottom: 27px;
+  gap: 28px;
+}
+
+
+.specialists__title {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.specialists__subtitle {
+  padding: 0px;
+  margin: 0px;
+}
+
+.specialists__call-btn {
+  position: absolute; /*ипографика*/
+  bottom: 28px;
+  left: 28px;
+  width: 323px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+@media screen and (max-width: 550px) {
+  .specialists__call-btn {
+    /* width: 100%; */
+    width: 85.6%;
+    left: 19px;
+  }
+
+  .specialists {
+    padding-bottom: 32px;
+  }
+
+  .specialists__list-item {
+    padding: 32px 19px 66px;
+  }
+
+  .specialists__item-txt {
+    padding-bottom: 24px;
+    gap: 12px;
+  }
+}

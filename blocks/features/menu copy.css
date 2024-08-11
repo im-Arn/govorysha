@@ -1,0 +1,94 @@
+#socialShare {
+  width: 32px;
+  margin-top: 0px;
+  line-height: 10px;
+}
+
+#socialShare a,
+#socialShare .button,
+#socialShare>.socialBox {
+  position: relative;
+  float: none;
+  display: inline-block;
+  line-height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#socialShare>*>span {
+  background-image: url(../../images/menu_collect.svg);
+  background-repeat: no-repeat;
+  background-position: 47% 50%;
+  background-size: 65% 65%;
+  background-color: #FCFBF4;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+#socialShare>*>span:hover {
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+#socialGallery {
+  left: 17px;
+  margin: 0 auto 0;
+  position: absolute;
+  top: 36px;
+  transform: translate(-50%, 0);
+  visibility: hidden;
+  width: 33px;
+}
+
+#socialGallery .button {
+  visibility: hidden;
+  opacity: 0;
+  border: 0px;
+  position: relative;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+#socialGallery a>span {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.socialToolBox {
+  cursor: pointer;
+}
+
+.button_social_ws-up {
+  background-image: url(../../images/menu-wt-up.svg);
+  background-color: #6CD05C;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60% 60%;
+}
+
+.button_social_tg {
+  background-image: url(../../images/menu-tg.svg);
+  background-color: #4B9DD5;
+  background-repeat: no-repeat;
+  background-position: 45% 48%;
+  background-size: 58% 58%;
+}
+
+.button_social_vk {
+  background-image: url(../../images/menu-vk.svg);
+  background-color: #1884FF;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60% 60%;
+}
+
+.pointer {
+  cursor: pointer
+}
